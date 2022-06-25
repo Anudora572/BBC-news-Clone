@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Second page with Style</title>
+
+        <style type="text/css">
+
+            .hola
+            {
+                color:red;
+            }
+
+            #green
+            {
+                color:green;
+            }
+
+            .underline
+            {
+                text-decoration:underline;
+            }
+
+            #first-section
+            {
+                color: #CFF3CC;
+                background-color:#A435F0;
+                width:200px;
+                float:left;
+                position:fixed;
+                margin:50px 20px;
+            }
+
+            #second-section
+            {
+                background-image:linear-gradient(127deg, rgba(140, 255, 238 ,1), rgba(140, 255, 238 ,0.2)) ;
+                width:200px;
+                height:700px;
+                float:right;
+                padding-top: 20px;
+                padding-right: 30px;
+                padding-left: 20px;
+                padding-bottom: 30px;
+            }
+
+            .clear-float
+            {
+                clear:both;
+            }
+
+            #third-section
+            {
+                color:darkslategrey;
+                background-color: coral;
+                width:200px;
+                position:relative;
+                left:100px;
+                top:100px;
+                z-index:1;
+                
+            }
+            
+
+            #fourth-section
+            {
+                color:rgb(158, 224, 169);
+                background-color: rgb(89, 64, 92);
+                width: 200px;
+                position:relative;
+                left:100px;
+                top:-100px;
+                z-index:2;
+                
+            }
+
+            body
+            {
+                margin:0;
+                padding:0;
+            }
+
+            p
+            {
+                margin:0;
+                padding:0;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!--don't put space between a single classname-->
+
+        <div id="first-section">
+
+        <p> Japan’s Mt. Fuji is an active volcano in Tokyo. </p>
+
+        <p>Buttery butteryy.</p>
+
+        </div>
+
+        <div id="second-section">
+
+        <h1 class="hola">CSS is cool!</h1>
+
+        <p id="green">This is green text.<span class="underline">This is some underlined text.</span></p>
+
+        </div>
+
+        <div class="clear-float"></div>
+        
+        <p>This is unfloated text which should be present underneath the floated content.</p>
+
+        <div id="third-section">
+
+            <h1> The quick brown fox jumps over the lazy dog. </h1>
+    
+            <h2>We wish you a Merry Christmas!!</h2>
+    
+        </div>
+
+        <div id="fourth-section">
+
+            <h1> Humpty Dumpty sat on the wall. </h1>
+    
+            <h2>Humpty Dumpty had a great wall.</h2>
+    
+        </div>
+
+    </body>
+
+
+</html>
